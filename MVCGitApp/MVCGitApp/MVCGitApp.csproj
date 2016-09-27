@@ -222,7 +222,16 @@
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\MvcApplication1\BAL\BAL.csproj">
+      <Project>{56ecba4c-dee9-4bfa-b2a9-871ca6266919}</Project>
+      <Name>BAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\Documents\Visual Studio 2013\Projects\MvcApplication1\BEL\BEL.csproj">
+      <Project>{7b1e46bd-bc70-4240-917c-c643b54c17e2}</Project>
+      <Name>BEL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
